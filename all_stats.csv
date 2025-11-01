@@ -1,0 +1,4 @@
+exp,cpu,variant,stats_path,sim_seconds,sim_insts,sim_ticks,host_seconds,host_inst_rate,system.cpu.cpi,system.cpu.ipc,system.cpu.numCycles,system.l2.overall_misses::total,system.l2.overall_hits::total,system.l1d.overall_misses::total,system.l1d.overall_hits::total
+DerivO3CPU_vecadd_avx,DerivO3CPU,vecadd_avx,results/DerivO3CPU_vecadd_avx/stats.txt,,,,,,3.157879,0.316668,492323330.0,,,,
+MinorCPU_vecadd_sse,MinorCPU,vecadd_sse,results/MinorCPU_vecadd_sse/stats.txt,,,,,,,,,,,,
+TimingSimpleCPU_vecadd_scalar,TimingSimpleCPU,vecadd_scalar,results/TimingSimpleCPU_vecadd_scalar/stats.txt,,,,,,7.09079,0.141028,1446596297.0,,,,
